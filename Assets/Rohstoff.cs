@@ -15,6 +15,8 @@ public class Rohstoff {
 	}
 
 	public Rohstoff() {
+		name = null;
+		id = -1;
 	}
 
 }

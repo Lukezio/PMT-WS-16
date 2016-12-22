@@ -283,8 +283,8 @@ MonoBehaviour:
   hoeheSenkeInventar: 1
   breiteTransportmittelInventar: 5
   hoeheTransportmittelInventar: 3
-  skin: {fileID: 0}
-  lagerInventar: []
+  skin: {fileID: 11400000, guid: 4d99f9285d42ebf4788e41656f74d39c, type: 2}
+  senkeInventar: []
   transportmittelInventar: []
   Quelle_01_Senke_03: {fileID: 1979852602}
   Quelle_02_Senke_03: {fileID: 1912814833}
@@ -441,7 +441,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1006167149}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1, y: 2, z: 0}
+  m_LocalPosition: {x: 2.5, y: 1.65, z: 0}
   m_LocalScale: {x: 1.5, y: 0.5, z: 4}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
