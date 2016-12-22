@@ -101,6 +101,7 @@ GameObject:
   - 33: {fileID: 48644464}
   - 65: {fileID: 48644463}
   - 23: {fileID: 48644462}
+  - 114: {fileID: 48644466}
   m_Layer: 0
   m_Name: Quelle_01_Senke_02
   m_TagString: Untagged
@@ -169,6 +170,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
+--- !u!114 &48644466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 48644461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa984a13f29010246998bf8ac51dc175, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  breiteQuelleInventar: 5
+  hoeheQuelleInventar: 1
+  breiteTransportmittelInventar: 5
+  hoeheTransportmittelInventar: 3
+  skin: {fileID: 11400000, guid: 4d99f9285d42ebf4788e41656f74d39c, type: 2}
+  lagerInventar: []
+  transportmittelInventar: []
 --- !u!1 &168880580
 GameObject:
   m_ObjectHideFlags: 0
@@ -260,9 +279,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c67692584ba97bf46ae3dec22005ca5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Quelle_01_Senke_03: {fileID: 0}
-  Quelle_02_Senke_03: {fileID: 0}
-  Quelle_03_Senke_03: {fileID: 0}
+  breiteSenkeInventar: 5
+  hoeheSenkeInventar: 1
+  breiteTransportmittelInventar: 5
+  hoeheTransportmittelInventar: 3
+  skin: {fileID: 0}
+  lagerInventar: []
+  transportmittelInventar: []
+  Quelle_01_Senke_03: {fileID: 1979852602}
+  Quelle_02_Senke_03: {fileID: 1912814833}
+  Quelle_03_Senke_03: {fileID: 1046252575}
 --- !u!1 &338609707
 GameObject:
   m_ObjectHideFlags: 0
@@ -342,50 +368,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
---- !u!1 &848455043
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 848455045}
-  - 114: {fileID: 848455044}
-  m_Layer: 0
-  m_Name: QuelleLager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &848455044
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 848455043}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa984a13f29010246998bf8ac51dc175, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  breite: 5
-  hoehe: 1
-  skin: {fileID: 11400000, guid: 4d99f9285d42ebf4788e41656f74d39c, type: 2}
-  lagerInventar: []
---- !u!4 &848455045
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 848455043}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
 --- !u!1 &1006167149
 GameObject:
   m_ObjectHideFlags: 0
@@ -398,7 +380,7 @@ GameObject:
   - 65: {fileID: 1006167151}
   - 23: {fileID: 1006167150}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Transportmittel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
